@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #E8E6E3;
+  --foreground: #000000;
+  --navbar-height: 60px;
+  --max-width: 1200px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #000000;
+    --foreground: #E8E6E3;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-weight: 00;
+}
+
+.hiddenScroll {
+  scrollbar-width: none;
+}
+
+.hiddenScroll::-webkit-scrollbar {
+  /* Safari and Chrome */
+  display: none;
+}
