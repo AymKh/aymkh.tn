@@ -18,6 +18,10 @@ function Nav() {
             link: '/about'
         },
         {
+            name: 'Milestones',
+            link: '/milestones'
+        },
+        {
             name: 'Work',
             link: '/work'
         },
