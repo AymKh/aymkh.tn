@@ -8,6 +8,7 @@ function page() {
   const milestones = [
     {
       title: "MOS CHAMPIONSHIP 2019",
+      date: "JUN 17, 2019",
       description: [
         "Competed in the Microsoft Office Specialist National Championship on June 17, 2019, at SmartFuture's headquarters in Tunis.",
         "Achieved a perfect score in just 9 minutes, securing first place nationally and earning qualification to represent Tunisia at the world championship finals.",
@@ -27,6 +28,7 @@ function page() {
     },
     {
       title: "Recognition by the Minister of Education",
+      date: "JUN 28, 2019",
       description: [
         "Following my national championship win, I was honored to meet Slim Khalbous, Tunisia's Minister of Higher Education and Scientific Research, on June 28, 2019.",
         "This recognition highlighted the significance of academic excellence and technical proficiency in advancing Tunisia's educational initiatives.",
@@ -49,6 +51,7 @@ function page() {
     },
     {
       title: "MOS World Championship Finals in New York",
+      date: "JUL 9, 2019",
       description: [
         "Represented Tunisia at the Microsoft Office Specialist World Championship in New York City, competing against the top student champions from over 100 countries.",
         "This international experience provided invaluable exposure to global standards of technical excellence and connected me with talented peers from around the world.",
@@ -69,6 +72,7 @@ function page() {
       {
         milestones.map((milestone, index) => (
           <div key={index} className="border-t border-border py-12 w-full">
+            <span>{milestone.date}</span>
             <h2 className="text-4xl font-bold mb-10">{milestone.title}</h2>
             <div className='grid lg:grid-cols-2 gap-8'>
               <div className='w-full flex flex-col gap-4'>
