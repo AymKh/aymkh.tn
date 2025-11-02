@@ -63,6 +63,23 @@ function page() {
         },
       ],
     },
+    {
+      title: "Represented Teachica at Salon Education Autrement 2023",
+      date: "2023",
+      description: [
+        "As CTO of Teachica, represented the company at the annual 'Salon Education Autrement' conference, speaking about the transformative role of artificial intelligence in education.",
+        "Presented insights on how AI tools can enhance the teaching and learning experience for both educators and students, covering topics such as personalized learning, automated assessment, and intelligent tutoring systems.",
+        "The presentation showcased Teachica's vision for integrating AI into educational technology and sparked meaningful discussions about balancing innovation with pedagogical best practices.",
+      ],
+      images: [
+        {
+          source: "/assets/sea/sea2023-1.png",
+        },
+        {
+          source: "/assets/sea/sea2023-2.jpg",
+        },
+      ],
+    },
   ];
 
   return (
