@@ -1,7 +1,6 @@
 'use client';
 import { TSocialsLinks } from '@/lib/type';
 import React from 'react'
-import { PopupButton } from '@typeform/embed-react'
 
 function Footer() {
 
